@@ -1,8 +1,6 @@
 import * as React from 'react';
-import { View, StyleSheet, Text, ImageBackground, KeyboardAvoidingView, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, Text, SafeAreaView, ImageBackground, KeyboardAvoidingView } from 'react-native';
 import {Input, Button} from 'react-native-elements';
-
-
 
 export interface AppProps { }
 
@@ -13,12 +11,12 @@ export interface AppState {
   }
   
 
-export default class LoginScreen extends React.Component<AppProps, AppState> {
+export default class Cadastro extends React.Component<AppProps, AppState> {
    constructor(props: AppProps) {
     super(props);
     this.state = {
-        email:'email',
-        senha:'123'
+        email:'emailpadrao@gmail.com',
+        senha:'123456'
       }
 
       emailInp:string = null;
@@ -27,11 +25,8 @@ export default class LoginScreen extends React.Component<AppProps, AppState> {
 
 
    public logar() {
-    if (this.emailInp === this.state.email && this.passInp === this.state.senha) {
-        this.props.navigation.navigate('menu')
-    } else {
-        alert('Senha ou e-mail inválidos!')
-    }
+    console.log(this.emailInp);
+    console.log(this.passInp);
  }
 
  public render() {
@@ -54,7 +49,7 @@ export default class LoginScreen extends React.Component<AppProps, AppState> {
                     inputStyle={{color:'white'}}
                     secureTextEntry={true} />
                 <Button title="Logar" onPress={() => this.logar()}	buttonStyle={{borderRadius:30}} 	raised={true} />
-                <TouchableOpacity onPress={() => this.props.navigation.navigate('signup')} ><Text style={styles.cadastrar}>Não possui conta? Cadastre-se</Text></TouchableOpacity>
+                <Text style={styles.cadastrar}>AQUIIII EHHH O CADASTROOOOOOOOOOO!!!!!! FDPP</Text>
             </KeyboardAvoidingView>
         </ImageBackground>
         )

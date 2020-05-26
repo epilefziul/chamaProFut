@@ -1,8 +1,8 @@
 import { registerRootComponent } from 'expo';
 import { activateKeepAwake } from 'expo-keep-awake';
 
-import LoginScreen from './src/screens/login';
+import navigation from './src/navigations';
 
 if (__DEV__) activateKeepAwake();
 
-registerRootComponent(LoginScreen);
+registerRootComponent(navigation);
