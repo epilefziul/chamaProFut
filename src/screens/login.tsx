@@ -37,7 +37,7 @@ export default class LoginScreen extends React.Component<AppProps, AppState> {
  public render() {
 
 	return (
-        <ImageBackground source={require('./../../assets/imgs/BG-Rebote.png')} 
+        <ImageBackground source={require('./../../assets/imgs/chamaFut.png')} 
                 style={styles.background}>
             <KeyboardAvoidingView behavior={Platform.OS === "ios" ? "padding" : null} style={styles.container}>
                         
@@ -54,8 +54,8 @@ export default class LoginScreen extends React.Component<AppProps, AppState> {
                     inputStyle={{color:'white'}}
                     secureTextEntry={true} />
                 <Button title="Logar" onPress={() => this.logar()}	buttonStyle={{borderRadius:30}} 	raised={true} />
-                <TouchableOpacity onPress={() => this.props.navigation.navigate('signup')} ><Text style={styles.cadastrar}>Não possui conta? Cadastre-se</Text></TouchableOpacity>
-            </KeyboardAvoidingView>
+               <TouchableOpacity onPress={() => this.props.navigation.navigate('signup')} ><Text style={styles.cadastrar}>Não possui conta? Cadastre-se</Text></TouchableOpacity>
+            </KeyboardAvoidingView> 
         </ImageBackground>
         )
   }
