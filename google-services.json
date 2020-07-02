@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "646724399554",
+    "firebase_url": "https://chamafut.firebaseio.com",
+    "project_id": "chamafut",
+    "storage_bucket": "chamafut.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646724399554:android:84262cea6ad7f05453265b",
+        "android_client_info": {
+          "package_name": "com.chamafut.react"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646724399554-gp7jpg6556p8p1fnvtcjgdh08ktt808g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATHp392WXKYMVjjx0ufH2JqTA2ijlOV-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646724399554-gp7jpg6556p8p1fnvtcjgdh08ktt808g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -52,7 +52,7 @@ export default class addPlay extends React.Component<AppProps, AppState> {
                     inputContainerStyle={styles.containerInput}
                     inputStyle={{color:'black'}}/>
 
-                <Input placeholder='Idade do jogador' 
+                <Input placeholder='Posição do jogador' 
                     leftIcon={{name:'person', color:'white'}} 
                     inputContainerStyle={styles.containerInput}
                     inputStyle={{color:'black'}}/>
